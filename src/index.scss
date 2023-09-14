@@ -1,0 +1,10 @@
+@import "./assets/scss/variable";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.box-layout{
+  padding: 0
+}
+
+@import "./assets/scss/component/header";
+@import "./assets/scss/component/footer";
+@import "./assets/scss/page/home";

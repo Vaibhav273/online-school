@@ -1,0 +1,27 @@
+.footer {
+  background-color: $footerColor;
+  padding: 1.5rem;
+  position: relative;
+
+  &:before {
+    content: "";
+    width: 100px;
+    height: 8px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: $mainColor;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: auto;
+  }
+
+  p{
+    margin-bottom: 0;
+    font-size: 0.8rem;
+
+    span{
+        font-weight: 700;
+    }
+  }
+}

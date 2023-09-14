@@ -1,0 +1,27 @@
+.menu-bg {
+  background-color: $headerColor;
+
+  img {
+    filter: invert(1);
+  }
+
+  .navbar {
+    padding: 0;
+
+    .nav-link {
+      color: $white;
+      padding: 20px 15px;
+      margin: 0 10px;
+
+      &.active {
+        color: $white;
+        background-color: $mainColor;
+      }
+
+      &:hover {
+        color: $white;
+        background-color: $mainColor;
+      }
+    }
+  }
+}
