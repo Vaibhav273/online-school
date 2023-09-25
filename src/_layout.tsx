@@ -9,7 +9,7 @@ function Layout() {
     return (
         <>
             <Header />
-            <Container fluid className="box-layout">
+            <Container fluid className="px-5">
                 <Suspense fallback={<Loader />} >
                     <Outlet />
                 </Suspense>

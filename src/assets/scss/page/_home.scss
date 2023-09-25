@@ -29,6 +29,7 @@
 
     &:hover {
       padding-right: 2.3rem;
+
       svg {
         opacity: 1;
         right: 20px;
@@ -39,8 +40,8 @@
 
 .homeTopImage {
   padding: 3rem 2rem 0rem;
-  img {
-  }
+
+  img {}
 }
 
 .homeSearch {
@@ -67,6 +68,7 @@
     position: relative;
     margin-top: 1rem;
     height: 1px;
+
     &.div-transparent {
       &:before {
         content: "";
@@ -76,14 +78,13 @@
         right: 29%;
         width: 40%;
         height: 1px;
-        background-image: linear-gradient(
-          to right,
-          transparent,
-          rgb(48, 49, 51),
-          transparent
-        );
+        background-image: linear-gradient(to right,
+            transparent,
+            rgb(48, 49, 51),
+            transparent);
       }
     }
+
     &.div-stopper {
       &:after {
         content: "";
@@ -114,6 +115,7 @@
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
+
   .btn {
     border-radius: 1rem;
     margin-top: 1.5rem;
@@ -136,7 +138,7 @@
   }
 
   &:hover {
-    cursor: pointer;
+    // cursor: pointer;
     box-shadow: 4px 3px 10px 0px #666565;
 
     .btn {
@@ -163,7 +165,6 @@
     align-items: flex-start;
     color: $white;
   }
-  .box-image{
 
-  }
+  .box-image {}
 }

@@ -1,6 +1,7 @@
 function Error() {
     return (
         <>
+            <p>Something went Wrong !</p>
         </>
     );
 }
