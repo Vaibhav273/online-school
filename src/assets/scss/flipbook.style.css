@@ -4,7 +4,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: url('../images/overlay_lightbox.png') repeat;
+    /* background: url('../images/overlay_lightbox.png') repeat; */
+    background: rgba(0, 0, 0, .9);
     z-index: 2147483646 !important;
 }
 
@@ -1776,7 +1777,7 @@
 }
 
 .flipbook-textLayer ::-moz-selection {
-    background: rgba(0, 0, 255,0.5);
+    background: rgba(0, 0, 255, 0.5);
     /* background: #B4D5FE; */
 }
 

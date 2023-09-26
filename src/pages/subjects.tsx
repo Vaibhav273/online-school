@@ -19,7 +19,7 @@ const Subjects = () => {
                 { src: "images/book2/12.jpg", thumb: "images/book2/12.jpg", title: "Page 12" },
             ],
             // skin:'dark',
-            pdfUrl: 'src/assets/pdf/pdf.pdf',
+            pdfUrl: '/src/assets/pdf/pdf.pdf',
             // lightBoxFullscreen: true,
             btnShare: { enabled: false },
             btnPrint: {
@@ -66,17 +66,17 @@ const Subjects = () => {
                     <Col xl={6}>
                         <div className="bookshelf">
                             <div className="covers">
-                                <div className="thumb book-1"><Image src="src/assets/images/1.jpg" alt="" /></div>
+                                <div className="thumb book-1"><Image src="/src/assets/images/1.jpg" alt="" /></div>
                             </div>
-                            <Image className="shelf-img" src="src/assets/images/shelf_wood.png" />
+                            <Image className="shelf-img" src="/src/assets/images/shelf_wood.png" />
                         </div>
                     </Col>
                     <Col xl={6}>
                         <div className="bookshelf">
                             <div className="covers">
-                                <div className="thumb book-1"><Image src="src/assets/images/1.jpg" alt="" /></div>
+                                <div className="thumb book-1"><Image src="/src/assets/images/1.jpg" alt="" /></div>
                             </div>
-                            <Image className="shelf-img" src="src/assets/images/shelf_wood.png" />
+                            <Image className="shelf-img" src="/src/assets/images/shelf_wood.png" />
                         </div>
                     </Col>
                 </Row>

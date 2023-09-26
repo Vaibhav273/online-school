@@ -1,5 +1,5 @@
-import { useEffect } from "react";
 import { Button, Col, Container, Row, Image } from "react-bootstrap";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 const SchoolClass = () => {
@@ -22,8 +22,20 @@ const SchoolClass = () => {
                 { src: "images/book2/12.jpg", thumb: "images/book2/12.jpg", title: "Page 12" },
             ],
             // skin:'dark',
-            pdfUrl: 'src/assets/pdf/pdf.pdf',
+            pdfUrl: '/src/assets/study-resources/pdf/pdf.pdf',
             // lightBoxFullscreen: true,
+            // textLayer: true,
+            menuMargin: 10,
+            menuTransparent: true,
+            menuOverBook: true,
+            menu2Margin: 10,
+            menu2Transparent: true,
+            menu2OverBook: true,
+            btnBackground: "rgba(0,0,0,.3)",
+            background: "rgba(0,0,0,0.9) !important",
+
+
+
             btnShare: { enabled: false },
             btnPrint: {
                 hideOnMobile: true,
@@ -60,30 +72,33 @@ const SchoolClass = () => {
 
     return (
         <>
-            <Container>
-                <Col xl={12} className="pageTitle">
-                    <h3>Subjects</h3>
-                    <div className="divider div-transparent div-stopper"></div>
+            {/* <Container> */}
+            <Col xl={12} className="pageTitle">
+                <h3>Subjects</h3>
+                <div className="divider div-transparent div-stopper"></div>
+            </Col>
+            <Row className="mb-4">
+                <Col xl={12}>
+                    <div className="bookshelf">
+                        <div className="covers">
+                            <div className="thumb book-1">
+                                <span className="text-secondary">English English English</span>
+                                <Image src="/src/assets/images/1.jpg" alt="" />
+                            </div>
+                        </div>
+                        <Image className="shelf-img w-100" src="/src/assets/images/shelf_wood.png" />
+                    </div>
                 </Col>
-                <Row>
-                    <Col xl={6}>
-                        <div className="bookshelf">
-                            <div className="covers">
-                                <div className="thumb book-1"><Image src="src/assets/images/1.jpg" alt="" /></div>
-                            </div>
-                            <Image className="shelf-img" src="src/assets/images/shelf_wood.png" />
+                {/* <Col xl={6}>
+                    <div className="bookshelf">
+                        <div className="covers">
+                            <div className="thumb book-1"><Image src="/src/assets/images/1.jpg" alt="" /></div>
                         </div>
-                    </Col>
-                    <Col xl={6}>
-                        <div className="bookshelf">
-                            <div className="covers">
-                                <div className="thumb book-1"><Image src="src/assets/images/1.jpg" alt="" /></div>
-                            </div>
-                            <Image className="shelf-img" src="src/assets/images/shelf_wood.png" />
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
+                        <Image className="shelf-img" src="/src/assets/images/shelf_wood.png" />
+                    </div>
+                </Col> */}
+            </Row>
+            {/* </Container> */}
         </>
     );
 }

@@ -61,7 +61,7 @@
 }
 
 .pageTitle {
-  padding: 3rem 15px;
+  padding: 2rem 15px;
   text-align: center;
 
   .divider {
@@ -77,10 +77,10 @@
         left: 29%;
         right: 29%;
         width: 40%;
-        height: 1px;
+        height: 4px;
         background-image: linear-gradient(to right,
             transparent,
-            rgb(48, 49, 51),
+            rgb(39, 0, 110),
             transparent);
       }
     }
@@ -90,13 +90,13 @@
         content: "";
         position: absolute;
         z-index: 1;
-        top: -6px;
+        top: -4px;
         left: calc(50% - 7px);
         width: 14px;
         height: 12px;
         background-color: white;
-        border-left: 1px solid rgb(48, 49, 51);
-        border-right: 1px solid rgb(48, 49, 51);
+        border-left: 4px solid rgb(39, 0, 110);
+        border-right: 4px solid rgb(39, 0, 110);
       }
     }
   }
