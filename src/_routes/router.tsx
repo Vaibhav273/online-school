@@ -21,8 +21,8 @@ const router = createBrowserRouter([
             { path: "contact-us" },
             { path: "subjects", element: <Subjects /> },
             { path: "classes/:className", element: <SchoolClass /> },
-            { path: "classes/:className/:sbject", element: <Subjects /> }
-            // { path: "classes/:className/:sbject/:", element: <Subjects /> }
+            { path: "classes/:className/:subjectName", element: <Subjects /> }
+            // { path: "classes/:className/:subject/:", element: <Subjects /> }
         ]
     }
 ]);
