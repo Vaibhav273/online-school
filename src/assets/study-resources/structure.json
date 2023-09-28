@@ -135,7 +135,118 @@
         },
         {
             "className": "class_2",
-            "subjects": []
+            "subjects": [
+                {
+                    "subjectName": "english_1",
+                    "units": [
+                        "book_cover.jpg",
+                        "book_index.pdf",
+                        "chapter_1.pdf",
+                        "chapter_2.pdf",
+                        "chapter_3.pdf",
+                        "chapter_4.pdf",
+                        "chapter_5.pdf",
+                        "chapter_6.pdf",
+                        "chapter_7.pdf",
+                        "chapter_8.pdf",
+                        "chapter_9.pdf",
+                        "chapter_10.pdf"
+                    ]
+                },
+                {
+                    "subjectName": "english_2",
+                    "units": [
+                        "book_cover.jpg",
+                        "book_index.pdf",
+                        "chapter_1.pdf",
+                        "chapter_2.pdf",
+                        "chapter_3.pdf",
+                        "chapter_4.pdf",
+                        "chapter_5.pdf",
+                        "chapter_6.pdf",
+                        "chapter_7.pdf",
+                        "chapter_8.pdf",
+                        "chapter_9.pdf",
+                        "chapter_10.pdf",
+                        "chapter_11.pdf",
+                        "chapter_12.pdf",
+                        "chapter_13.pdf",
+                        "chapter_14.pdf",
+                        "chapter_15.pdf"
+                    ]
+                },
+                {
+                    "subjectName": "hindi",
+                    "units": [
+                        "book_cover.jpg",
+                        "book_index.pdf",
+                        "chapter_1.pdf",
+                        "chapter_2.pdf",
+                        "chapter_3.pdf",
+                        "chapter_4.pdf",
+                        "chapter_5.pdf",
+                        "chapter_6.pdf",
+                        "chapter_7.pdf",
+                        "chapter_8.pdf",
+                        "chapter_9.pdf",
+                        "chapter_10.pdf",
+                        "chapter_11.pdf",
+                        "chapter_12.pdf",
+                        "chapter_13.pdf",
+                        "chapter_14.pdf",
+                        "chapter_15.pdf"
+                    ]
+                },
+                {
+                    "subjectName": "mathematics",
+                    "units": [
+                        "book_cover.jpg",
+                        "book_index.pdf",
+                        "chapter_1.pdf",
+                        "chapter_2.pdf",
+                        "chapter_3.pdf",
+                        "chapter_4.pdf",
+                        "chapter_5.pdf",
+                        "chapter_6.pdf",
+                        "chapter_7.pdf",
+                        "chapter_8.pdf",
+                        "chapter_9.pdf",
+                        "chapter_10.pdf",
+                        "chapter_11.pdf",
+                        "chapter_12.pdf",
+                        "chapter_13.pdf",
+                        "chapter_14.pdf",
+                        "chapter_15.pdf"
+                    ]
+                },
+                {
+                    "subjectName": "urdu",
+                    "units": [
+                        "book_cover.jpg",
+                        "book_index.pdf",
+                        "chapter_1.pdf",
+                        "chapter_2.pdf",
+                        "chapter_3.pdf",
+                        "chapter_4.pdf",
+                        "chapter_5.pdf",
+                        "chapter_6.pdf",
+                        "chapter_7.pdf",
+                        "chapter_8.pdf",
+                        "chapter_9.pdf",
+                        "chapter_10.pdf",
+                        "chapter_11.pdf",
+                        "chapter_12.pdf",
+                        "chapter_13.pdf",
+                        "chapter_14.pdf",
+                        "chapter_15.pdf",
+                        "chapter_16.pdf",
+                        "chapter_17.pdf",
+                        "chapter_18.pdf",
+                        "chapter_19.pdf",
+                        "chapter_20.pdf"
+                    ]
+                }
+            ]
         },
         {
             "className": "class_3",

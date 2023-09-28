@@ -63,9 +63,9 @@ const SchoolClass = () => {
                                 {structure.classes[+className! - 1].subjects.map(sub =>
                                     <>
                                         <Link to={"/classes/" + className + "/" + sub.subjectName}>
-                                            <div className="thumb book-1 mb-2 mb-md-0 bg-secondary">
-                                                <span className="text-light fw-bold text-capitalize">{sub.subjectName.replace(/_/, ' ')}</span>
-                                                <Image fluid src={"/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg"} alt={sub.subjectName} />
+                                            <div className="thumb book-1 mb-2 mb-md-0 bg-secondary" style={{ backgroundImage: "url('/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg')", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+                                                <span className="text-light fw-bold text-capitalize d-block">{sub.subjectName.replace(/_/, ' ')}</span>
+                                                {/* <Image fluid src={"/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg"} alt={sub.subjectName} /> */}
                                             </div>
                                         </Link>
                                     </>

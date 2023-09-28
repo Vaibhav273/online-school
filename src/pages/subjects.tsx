@@ -145,9 +145,10 @@ const Subjects = () => {
                                         {structure.classes[+className! - 1].subjects.find(itm => itm.subjectName == subjectName)!.units.map((unit, i) =>
                                             <>{((i > rowIndex * 5) && (i <= rowIndex * 5 + 5)) &&
                                                 <>{i > 0 &&
-                                                    <div id={unit.split('.')[0]} className="thumb mb-2 mb-md-0 bg-secondary">
-                                                        <span className="text-light fw-bold text-capitalize">{unit.split('.')[0].replace(/_/, ' ')}</span>
-                                                        <Image fluid src={"/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg"} alt={subjectName} />
+                                                    <div id={unit.split('.')[0]} className="thumb mb-2 mb-md-0 bg-secondary position-relative" style={{ backgroundImage: "url('/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg')", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+                                                        <span className="text-light fw-bold text-capitalize d-block">{unit.split('.')[0].replace(/_/, ' ')}</span>
+                                                        {/* <Image fluid src={"/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg"} alt={subjectName} /> */}
+                                                        {/* <span className="d-none d-sm-block text-dark fw-bold text-capitalize position-absolute bottom-0 start-50 translate-middle-x">Chapter Name Chapter Name Chapter Name</span> */}
                                                     </div>
                                                 }
                                                 </>

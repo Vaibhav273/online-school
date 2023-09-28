@@ -5,8 +5,24 @@
   box-shadow: 4px 4px 5px rgba(0, 0, 0, .3);
   /* width: 15% !important; */
   /* min-width: 100px; */
-  max-width: 180px;
+  /* max-width: 180px; */
+
+  height: 20vw;
+  min-height: 150px;
+  max-height: 300px;
+  width: 15vw;
+  min-width: 100px;
+  max-width: 200px;
 }
+
+.bookshelf span:first-child {
+  background: rgba(0, 0, 0, .5);
+}
+
+/* .bookshelf span:last-child {
+  width: 100%;
+  background: rgba(255, 255, 255, .8);
+} */
 
 .bookshelf .thumb img {
   width: 100%;
