@@ -33,13 +33,13 @@ function Home() {
                         />
                     </Col>
                 </Row>
-                {/* </Container> */}
-                <Col xl={12} className="homeSearch">
-                    {/* <Container> */}
+            </Container>
+            <Col xl={12} className="homeSearch">
+                <Container>
                     <Search placeholder="Search a Topic" onSearch={onSearch} />
-                    {/* </Container> */}
-                </Col>
-                {/* <Container> */}
+                </Container>
+            </Col>
+            <Container>
                 <Col xl={12} className="pageTitle">
                     <h3>Learn by Subjects</h3>
                     <div className="divider div-transparent div-stopper"></div>
@@ -94,10 +94,10 @@ function Home() {
                         </Col>
                     </Col>
                 </Row>
-                {/* </Container> */}
+            </Container>
 
-                <Col xl={12} className="schoolBox">
-                    {/* <Container> */}
+            <Col xl={12} className="schoolBox">
+                <Container>
                     <Row>
                         <Col xl={8} className="box-text">
                             <h4>Let Learn with Us !!</h4>
@@ -111,13 +111,12 @@ function Home() {
                             />
                         </Col>
                     </Row>
-                    {/* </Container> */}
-                </Col>
+                </Container>
+            </Col>
 
-                <Col xl={12} className="mt-3">
+            <Col xl={12} className="mt-3">
 
-                </Col>
-            </Container>
+            </Col>
         </>
     );
 }

@@ -1,4 +1,5 @@
-import { Col, Container, Row, Image } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import { Image } from "antd";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import structure from "../assets/study-resources/structure.json";
@@ -145,17 +146,20 @@ const Subjects = () => {
                                         {structure.classes[+className! - 1].subjects.find(itm => itm.subjectName == subjectName)!.units.map((unit, i) =>
                                             <>{((i > rowIndex * 5) && (i <= rowIndex * 5 + 5)) &&
                                                 <>{i > 0 &&
-                                                    <div id={unit.split('.')[0]} className="thumb mb-2 mb-md-0 bg-secondary position-relative" style={{ backgroundImage: "url('/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg')", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+                                                    <div id={unit.split('.')[0]} className="thumb mb-2 mb-md-2 bg-dark position-relative">
                                                         <span className="text-light fw-bold text-capitalize d-block">{unit.split('.')[0].replace(/_/, ' ')}</span>
-                                                        {/* <Image fluid src={"/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg"} alt={subjectName} /> */}
-                                                        {/* <span className="d-none d-sm-block text-dark fw-bold text-capitalize position-absolute bottom-0 start-50 translate-middle-x">Chapter Name Chapter Name Chapter Name</span> */}
+                                                        <Image preview={false} src={"/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg"}
+                                                            fallback="/src/assets/images/book_image_alt1.png"
+                                                            alt={subjectName}
+                                                        />
+                                                        <span className="d-none d-sm-block text-light fw-bold text-capitalize position-absolute bottom-0 start-50 translate-middle-x">Chapter Name</span>
                                                     </div>
                                                 }
                                                 </>
                                             }</>
                                         )}
                                     </div>
-                                    <Image className="shelf-img w-100" src="/src/assets/images/shelf_wood_1920.png" />
+                                    <Image preview={false} className="shelf-img w-100 d-none d-sm-block" src="/src/assets/images/shelf_wood_slim.png" />
                                 </div>
                             </Col>
                     )}

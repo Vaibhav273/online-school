@@ -1,7 +1,8 @@
-import { Col, Container, Row, Image } from "react-bootstrap";
+import { Col, Container, Row, } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import structure from "../assets/study-resources/structure.json";
+import { Image } from "antd";
 
 const SchoolClass = () => {
     const { className } = useParams();
@@ -57,22 +58,42 @@ const SchoolClass = () => {
                     <div className="divider div-transparent div-stopper"></div>
                 </Col>
                 <Row className="mb-4">
-                    <Col xl={12}>
-                        <div className="bookshelf">
-                            <div className="covers d-flex flex-wrap align-items-end justify-content-evenly">
-                                {structure.classes[+className! - 1].subjects.map(sub =>
-                                    <>
+                    {/* <Col xl={12} className="bookshelf">
+                        <div className="covers d-flex flex-wrap align-items-end justify-content-evenly">
+                            {structure.classes[+className! - 1].subjects.map(sub =>
+                                <>
+                                    <Link to={"/classes/" + className + "/" + sub.subjectName}>
+                                        <div className="thumb book-1 mb-2 mb-md-0 bg-secondary">
+                                            <span className="text-light fw-bold text-capitalize d-block">{sub.subjectName.replace(/_/, ' ')}</span>
+                                            <Image fluid src={"/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg"} alt={sub.subjectName} />
+                                        </div>
+                                    </Link>
+                                </>
+                            )}
+                        </div>
+                        <Image className="shelf-img w-100" src="/src/assets/images/shelf_wood_1920.png" />
+                    </Col> */}
+
+                    <Col xl={12} className="bookshelf">
+                        <Row>
+                            {structure.classes[+className! - 1].subjects.map(sub =>
+                                <>
+                                    <Col md={6} lg={4} xl={3} className="selfImage">
                                         <Link to={"/classes/" + className + "/" + sub.subjectName}>
-                                            <div className="thumb book-1 mb-2 mb-md-0 bg-secondary" style={{ backgroundImage: "url('/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg')", backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+                                            <div className="thumb book-1 mb-2 mb-md-0 bg-dark">
                                                 <span className="text-light fw-bold text-capitalize d-block">{sub.subjectName.replace(/_/, ' ')}</span>
-                                                {/* <Image fluid src={"/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg"} alt={sub.subjectName} /> */}
+                                                <Image preview={false} src={"/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg"}
+                                                    fallback="/src/assets/images/book_image_alt3.png"
+                                                    alt={sub.subjectName}
+                                                />
                                             </div>
                                         </Link>
-                                    </>
-                                )}
-                            </div>
-                            <Image className="shelf-img w-100" src="/src/assets/images/shelf_wood_1920.png" />
-                        </div>
+
+                                    </Col>
+                                </>
+                            )}
+                        </Row>
+                        {/* <Image className="shelf-img w-100" src="/src/assets/images/shelf_wood_1920.png" /> */}
                     </Col>
                 </Row>
             </Container>

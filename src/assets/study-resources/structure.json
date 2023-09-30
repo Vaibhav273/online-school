@@ -6,18 +6,54 @@
                 {
                     "subjectName": "english_1",
                     "units": [
-                        "book_cover.jpg",
-                        "book_index.pdf",
-                        "chapter_1.pdf",
-                        "chapter_2.pdf",
-                        "chapter_3.pdf",
-                        "chapter_4.pdf",
-                        "chapter_5.pdf",
-                        "chapter_6.pdf",
-                        "chapter_7.pdf",
-                        "chapter_8.pdf",
-                        "chapter_9.pdf",
-                        "chapter_10.pdf"
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Marigold"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "A Happy Child"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "After a Bath"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "One Little Kitten"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "Once I saw a Little Bird"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "Merry-Go-Round"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "If I Were an Apple"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "A  Kite"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "A Little Turtle"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "Clouds"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "Flying-Man"
+                        }
                     ]
                 },
                 {
