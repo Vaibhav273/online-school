@@ -99,7 +99,7 @@ const Subjects = () => {
             structure.classes[+className! - 1].subjects.find(itm => itm.subjectName == subjectName)!.units.forEach(
                 (unit, i) => {
                     if (i > 0) {
-                        $('#' + unit.split('.')[0]).flipBook({
+                        $('#' + unit.name.split('.')[0]).flipBook({
                             // pages: [
                             //     { src: "images/book2/1.jpg", thumb: "images/book2/1.jpg", title: "Cover" },
                             //     { src: "images/book2/2.jpg", thumb: "images/book2/2.jpg", title: "Page 2" },
@@ -114,7 +114,7 @@ const Subjects = () => {
                             //     { src: "images/book2/11.jpg", thumb: "images/book2/11.jpg", title: "Page 11" },
                             //     { src: "images/book2/12.jpg", thumb: "images/book2/12.jpg", title: "Page 12" },
                             // ],
-                            pdfUrl: "/src/assets/study-resources/" + "class_" + className + "/" + subjectName + "/" + unit,
+                            pdfUrl: "/src/assets/study-resources/" + "class_" + className + "/" + subjectName + "/" + unit.name,
                             ...flipbookConfig
                         });
                     }
@@ -146,13 +146,13 @@ const Subjects = () => {
                                         {structure.classes[+className! - 1].subjects.find(itm => itm.subjectName == subjectName)!.units.map((unit, i) =>
                                             <>{((i > rowIndex * 5) && (i <= rowIndex * 5 + 5)) &&
                                                 <>{i > 0 &&
-                                                    <div id={unit.split('.')[0]} className="thumb mb-2 mb-md-2 bg-dark position-relative">
-                                                        <span className="text-light fw-bold text-capitalize d-block">{unit.split('.')[0].replace(/_/, ' ')}</span>
+                                                    <div id={unit.name.split('.')[0]} className="thumb mb-2 mb-md-2 bg-dark position-relative">
+                                                        <span className="text-light fw-bold text-capitalize d-block">{unit.name.split('.')[0].replace(/_/, ' ')}</span>
                                                         <Image preview={false} src={"/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg"}
                                                             fallback="/src/assets/images/book_image_alt1.png"
                                                             alt={subjectName}
                                                         />
-                                                        <span className="d-none d-sm-block text-light fw-bold text-capitalize position-absolute bottom-0 start-50 translate-middle-x">Chapter Name</span>
+                                                        <span className="text-light fw-bold text-capitalize position-absolute bottom-0 start-50 translate-middle-x">{unit.title}</span>
                                                     </div>
                                                 }
                                                 </>
