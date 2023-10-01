@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter } from 'react-router-dom'; //, createBrowserRouter
 import Layout from "../_layout";
 import Error from "../global/_error";
 import Subjects from "../pages/subjects";
@@ -8,7 +8,7 @@ import SchoolClass from "../pages/school-class";
 
 const Home = React.lazy(() => import('../pages/_home'));
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <Layout />,
