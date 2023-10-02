@@ -2,9 +2,27 @@
   display: inline-block;
   cursor: pointer;
   margin: 0px 0.5%;
-  width: 15% !important;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, .3);
+  /* width: 15% !important; */
+  width: 15vw;
+  min-width: 100px;
   max-width: 180px;
+
+  /* height: 20vw;
+  min-height: 150px;
+  max-height: 300px;
+  width: 15vw;
+  min-width: 100px;
+  max-width: 200px; */
+}
+
+/* .bookshelf span:first-child {
+  background: rgba(0, 0, 0, .5);
+} */
+
+.bookshelf span:last-child {
+  width: 100%;
+  background: rgba(0, 0, 0, .5);
 }
 
 .bookshelf .thumb img {
@@ -33,3 +51,35 @@
   text-align: center;
   padding: 0px;
 }
+
+/*  */
+.selfImage {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.selfImage:after {
+  content: '';
+  background-image: url('../images/shelf_glass.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  position: absolute;
+  bottom: -45px;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  z-index: -1;
+}
+
+/* 
+.selfImage img {
+  height: 240px;
+}
+
+.selfImage img:hover {
+  transform: perspective(900px);
+  transform-style: preserve-3d;
+  perspective: 900px;
+  box-sizing: border-box;
+} */

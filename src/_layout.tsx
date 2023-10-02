@@ -1,5 +1,4 @@
 import { Suspense } from "react";
-import { Container } from "react-bootstrap";
 import { Outlet } from "react-router-dom";
 import Footer from "./component/_footer";
 import Header from "./component/_header";
@@ -9,11 +8,9 @@ function Layout() {
     return (
         <>
             <Header />
-            <Container fluid className="px-5">
-                <Suspense fallback={<Loader />} >
-                    <Outlet />
-                </Suspense>
-            </Container>
+            <Suspense fallback={<Loader />} >
+                <Outlet />
+            </Suspense>
             <Footer />
         </>
     );

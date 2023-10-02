@@ -1,0 +1,856 @@
+{
+    "classes": [
+        {
+            "className": "class_1",
+            "subjects": [
+                {
+                    "subjectName": "english_1",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Marigold Contents"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "A Happy Child"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "After a Bath"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "One Little Kitten"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "Once I saw a Little Bird"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "Merry-Go-Round"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "If I Were an Apple"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "A  Kite"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "A Little Turtle"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "Clouds"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "Flying-Man"
+                        }
+                    ]
+                },
+                {
+                    "subjectName": "english_2",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Raindrops Contents"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "CLAP, CLAP, CLAP"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "ONE, TWO"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "THE LITTLE BIRD"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "BUBBLES"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "CHHOTU"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "ANIMALS AND BIRDS"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "FRUITS AND VEGETABLES"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "WHO AM I ?"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "HIDE AND SEEK"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "FUN WITH NUMBERS"
+                        },
+                        {
+                            "name": "chapter_11.pdf",
+                            "title": "SHAPES"
+                        },
+                        {
+                            "name": "chapter_12.pdf",
+                            "title": "CATS"
+                        },
+                        {
+                            "name": "chapter_13.pdf",
+                            "title": "COLOURS"
+                        },
+                        {
+                            "name": "chapter_14.pdf",
+                            "title": "ACTIONS WE DO"
+                        },
+                        {
+                            "name": "chapter_15.pdf",
+                            "title": "LEFT AND RIGHT"
+                        },
+                        {
+                            "name": "chapter_16.pdf",
+                            "title": "THE LION AND THE MOUSE"
+                        },
+                        {
+                            "name": "chapter_17.pdf",
+                            "title": "MORNING AND EVENING"
+                        },
+                        {
+                            "name": "chapter_18.pdf",
+                            "title": "May I Come In ?"
+                        },
+                        {
+                            "name": "chapter_19.pdf",
+                            "title": "Action Song"
+                        }
+                    ]
+                },
+                {
+                    "subjectName": "hindi",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "कहाँ क्या है"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "झूला"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "आम की कहानी"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "आम की टोकरी"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "पत्ते ही पत्ते"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "पकौड़ी"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "छुक-छुक गाड़ी"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "रसोईघर"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "चूहों ! म्याऊँ सो रही है"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "बन्दर और गिलहरी"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "पगड़ी"
+                        },
+                        {
+                            "name": "chapter_11.pdf",
+                            "title": "पतंग"
+                        },
+                        {
+                            "name": "chapter_12.pdf",
+                            "title": "गेंद-बल्ला"
+                        },
+                        {
+                            "name": "chapter_13.pdf",
+                            "title": "बन्दर गया खेत में भाग"
+                        },
+                        {
+                            "name": "chapter_14.pdf",
+                            "title": "एक बुढ़िया"
+                        },
+                        {
+                            "name": "chapter_15.pdf",
+                            "title": "मैं भी..."
+                        },
+                        {
+                            "name": "chapter_16.pdf",
+                            "title": "लालू और पीलू"
+                        },
+                        {
+                            "name": "chapter_17.pdf",
+                            "title": "चकई के चकदुम"
+                        },
+                        {
+                            "name": "chapter_18.pdf",
+                            "title": "छोटी का कमाल"
+                        },
+                        {
+                            "name": "chapter_19.pdf",
+                            "title": "चार चने"
+                        },
+                        {
+                            "name": "chapter_20.pdf",
+                            "title": "भगदड़"
+                        },
+                        {
+                            "name": "chapter_21.pdf",
+                            "title": "हलीम चला चाँद पर"
+                        },
+                        {
+                            "name": "chapter_22.pdf",
+                            "title": "हाथी चल्लम चल्लम"
+                        },
+                        {
+                            "name": "chapter_23.pdf",
+                            "title": "सात पूँछ का चूहा"
+                        }
+                    ]
+                },
+                {
+                    "subjectName": "mathematics",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Math-Magic Contents"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "Shapes and Space"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "Numbers from One to Nine"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "Addition"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "Subtraction"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "Numbers from Ten to Twenty"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "Time"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "Measurement"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "Numbers from Twenty-one to Fifty"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "Data Handling"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "Patterns"
+                        },
+                        {
+                            "name": "chapter_11.pdf",
+                            "title": "Numbers"
+                        },
+                        {
+                            "name": "chapter_12.pdf",
+                            "title": "Money"
+                        },
+                        {
+                            "name": "chapter_13.pdf",
+                            "title": "How many"
+                        },
+                        {
+                            "name": "teachers_notes.pdf",
+                            "title": "Teacher's Notes"
+                        }
+                    ]
+                },
+                {
+                    "subjectName": "urdu",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Ibtedai Urdu Contents"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_11.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_12.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_13.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_14.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_15.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_16.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_17.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_18.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_19.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_20.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_21.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_22.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_23.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_24.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_25.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_26.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_27.pdf",
+                            "title": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": "class_2",
+            "subjects": [
+                {
+                    "subjectName": "english_1",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Marigold Contents"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "First Day at School"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "I am Lucky"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "A Smile"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "Rain"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "Zoo Manners"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "Mr. Nobody"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "On My Blackboard I can Draw"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "I am the Music Man"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "Granny Granny Please Comb My Hair"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "Strange Talk"
+                        }
+                    ]
+                },
+                {
+                    "subjectName": "english_2",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Raindrops Contents"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "ACTION SONG"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "OUR DAY"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "MY FAMILY"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "WHAT'S GOING ON ?"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "MOHAN, THE POTTER"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "RAIN IN SUMMER"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "MY VILLAGE"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "THE WORK PEOPLE DO"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "WORK"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "OUR NATIONAL SYMBOLS"
+                        },
+                        {
+                            "name": "chapter_11.pdf",
+                            "title": "THE FESTIVALS OF INDIA"
+                        },
+                        {
+                            "name": "chapter_12.pdf",
+                            "title": "THE MONKEY AND THE ELEPHANT"
+                        },
+                        {
+                            "name": "chapter_13.pdf",
+                            "title": "GOING TO THE FAIR"
+                        },
+                        {
+                            "name": "chapter_14.pdf",
+                            "title": "COLOURS"
+                        },
+                        {
+                            "name": "chapter_15.pdf",
+                            "title": "SIKKIM"
+                        }
+                    ]
+                },
+                {
+                    "subjectName": "hindi",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "कहाँ क्या है"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "ऊँट चला"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "भालू ने खेली फुटबॉल"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "म्याऊँ, म्याऊँ !!"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "अधिक बलवान कौन ?"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "दोस्त की मदद"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "बहुत हुआ"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "मेरी किताब"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "तितली और कली"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "बुलबुल"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "मीठी सारंगी"
+                        },
+                        {
+                            "name": "chapter_11.pdf",
+                            "title": "टेसू राजा बीच बाज़ार"
+                        },
+                        {
+                            "name": "chapter_12.pdf",
+                            "title": "बस के नीचे बाघ"
+                        },
+                        {
+                            "name": "chapter_13.pdf",
+                            "title": "सूरज जल्दी आना जी !"
+                        },
+                        {
+                            "name": "chapter_14.pdf",
+                            "title": "नटखट चूहा"
+                        },
+                        {
+                            "name": "chapter_15.pdf",
+                            "title": "एक्की दुक्की"
+                        }
+                    ]
+                },
+                {
+                    "subjectName": "mathematics",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Math-Magic Contents"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": "What is Long, What is Round?"
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": "Counting in Groups"
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": "How Much Can You Carry?"
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": "Counting in Tens"
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": "Patterns"
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": "Footprints"
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": "Jugs and Mugs"
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": "Tens and Ones"
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": "My Funday"
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": "Add Our Points"
+                        },
+                        {
+                            "name": "chapter_11.pdf",
+                            "title": "Lines and Lines"
+                        },
+                        {
+                            "name": "chapter_12.pdf",
+                            "title": "Give and Take"
+                        },
+                        {
+                            "name": "chapter_13.pdf",
+                            "title": "The Longest Step"
+                        },
+                        {
+                            "name": "chapter_14.pdf",
+                            "title": "Birds Come, Birds Go"
+                        },
+                        {
+                            "name": "chapter_15.pdf",
+                            "title": "How Many Ponytails?"
+                        }
+                    ]
+                },
+                {
+                    "subjectName": "urdu",
+                    "units": [
+                        {
+                            "name": "book_cover.jpg",
+                            "title": ""
+                        },
+                        {
+                            "name": "book_index.pdf",
+                            "title": "Ibtedai Urdu Contents"
+                        },
+                        {
+                            "name": "chapter_1.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_2.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_3.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_4.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_5.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_6.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_7.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_8.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_9.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_10.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_11.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_12.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_13.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_14.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_15.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_16.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_17.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_18.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_19.pdf",
+                            "title": ""
+                        },
+                        {
+                            "name": "chapter_20.pdf",
+                            "title": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": "class_3",
+            "subjects": []
+        },
+        {
+            "className": "class_4",
+            "subjects": []
+        },
+        {
+            "className": "class_5",
+            "subjects": []
+        },
+        {
+            "className": "class_6",
+            "subjects": []
+        },
+        {
+            "className": "class_7",
+            "subjects": []
+        },
+        {
+            "className": "class_8",
+            "subjects": []
+        },
+        {
+            "className": "class_9",
+            "subjects": []
+        },
+        {
+            "className": "class_10",
+            "subjects": []
+        },
+        {
+            "className": "class_11",
+            "subjects": []
+        },
+        {
+            "className": "class_12",
+            "subjects": []
+        }
+    ]
+}
