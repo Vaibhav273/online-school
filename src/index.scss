@@ -10,4 +10,15 @@
 @import "./assets/scss/page/home";
 @import "./assets/scss/flipbook.style.css";
 @import "./assets/scss/bookshelf.css";
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .navbar-toggler {
+    border-color: $white;
+    border-radius: 0;
+    .navbar-toggler-icon {
+      filter: invert(1);
+    }
+  }
+}
