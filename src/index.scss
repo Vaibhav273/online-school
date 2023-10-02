@@ -21,4 +21,32 @@
       filter: invert(1);
     }
   }
+
+  .selfImage:after {
+    bottom: -35px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .selfImage:after {
+    bottom: -20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .selfImage:after {
+    bottom: -25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .selfImage:after {
+    bottom: -30px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .selfImage:after {
+    bottom: -35px;
+  }
 }
