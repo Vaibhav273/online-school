@@ -22,7 +22,7 @@
 
 .bookshelf span:last-child {
   width: 100%;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .6);
 }
 
 .bookshelf .thumb img {
@@ -50,6 +50,10 @@
 .bookshelf {
   text-align: center;
   padding: 0px;
+}
+
+.brick-background{
+  background: url("/src/assets/images/light_gray_bricks.gif")
 }
 
 /*  */
