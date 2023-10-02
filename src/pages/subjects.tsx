@@ -131,7 +131,7 @@ const Subjects = () => {
 
     return (
         <>
-            <Container fluid>
+            <Container fluid style={{background:"url('/src/assets/images/light_gray_bricks.gif')"}}>
                 <Col xl={12} className="pageTitle">
                     <h4>{pageTitle}</h4>
                     <h3 className="text-capitalize">{subjectName!.replace(/_/, ' ')}</h3>
