@@ -71,7 +71,7 @@ const SchoolClass = () => {
                                             {((i >= rowIndex * 5) && (i < rowIndex * 5 + 5)) &&
                                                 <Link to={"/classes/" + className + "/" + sub.subjectName}>
                                                     <div className="thumb book-1 mb-2 mb-md-0 bg-dark">
-                                                        <span className="text-light fw-bold text-capitalize d-block">{sub.subjectName.replace(/_/, ' ')}</span>
+                                                        <span className="text-light fw-bold text-capitalize d-block">{sub.subjectName.replace(/_/g, ' ')}</span>
                                                         <Image preview={false} src={"/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg"}
                                                             className="d-inline-block"
                                                             fallback="/src/assets/images/book_image_alt1.png" 
@@ -82,7 +82,7 @@ const SchoolClass = () => {
                                         </>
                                     )}
                                 </div>
-                                <Image preview={false} className="shelf-img w-100" src="/src/assets/images/shelf_glass_HQ.png" />
+                                <Image preview={false} className="shelf-img w-100" src="/src/assets/images/shelf_glass_HQ_Slim.png" />
                             </Col>
                     )}
                     {/* <Col xl={12} className="bookshelf">
