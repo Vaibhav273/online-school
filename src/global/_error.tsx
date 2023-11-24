@@ -1,7 +1,7 @@
 function Error() {
     return (
         <>
-            <p>Something went Wrong !</p>
+            <p className="text-center fw-bold mt-4">Something went Wrong !</p>
         </>
     );
 }
