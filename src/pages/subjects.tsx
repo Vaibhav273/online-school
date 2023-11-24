@@ -131,7 +131,7 @@ const Subjects = () => {
 
     return (
         <>
-            <Container fluid>
+            <Container fluid className="brick-background">
                 <Col xl={12} className="pageTitle">
                     <h4>{pageTitle}</h4>
                     <h3 className="text-capitalize">{subjectName!.replace(/_/, ' ')}</h3>
@@ -144,19 +144,23 @@ const Subjects = () => {
                                 <div className="bookshelf">
                                     <div className="covers d-flex flex-wrap align-items-end justify-content-evenly">
                                         {structure.classes[+className! - 1].subjects.find(itm => itm.subjectName == subjectName)!.units.map((unit, i) =>
-                                            <>{((i > rowIndex * 5) && (i <= rowIndex * 5 + 5)) &&
-                                                <>{i > 0 &&
-                                                    <div id={unit.name.split('.')[0]} className="thumb mb-2 mb-md-2 bg-dark position-relative">
-                                                        <span className="text-light fw-bold text-capitalize d-block">{unit.name.split('.')[0].replace(/_/, ' ')}</span>
-                                                        <Image preview={false} src={"/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg"}
-                                                            fallback="/src/assets/images/book_image_alt1.png"
-                                                            alt={subjectName}
-                                                        />
-                                                        <span className="text-light fw-bold text-capitalize position-absolute bottom-0 start-50 translate-middle-x">{unit.title}</span>
-                                                    </div>
+                                            <>
+                                                {((i > rowIndex * 5) && (i <= rowIndex * 5 + 5)) &&
+                                                    <>
+                                                        {i > 0 &&
+                                                            <div id={unit.name.split('.')[0]} className="thumb mb-2 mb-md-2 bg-dark position-relative">
+                                                                <span className="text-light fw-bold text-capitalize d-block">{unit.name.split('.')[0].replace(/_/, ' ')}</span>
+                                                                <Image preview={false} src={"/src/assets/study-resources/class_" + className + "/" + subjectName + "/book_cover.jpg"}
+                                                                    className="d-inline-block"
+                                                                    fallback="/src/assets/images/book_image_alt1.png"
+                                                                    alt={subjectName}
+                                                                />
+                                                                <span className="text-light fw-bold text-capitalize position-absolute bottom-0 start-50 translate-middle-x">{unit.title}</span>
+                                                            </div>
+                                                        }
+                                                    </>
                                                 }
-                                                </>
-                                            }</>
+                                            </>
                                         )}
                                     </div>
                                     <Image preview={false} className="shelf-img w-100 d-none d-sm-block" src="/src/assets/images/shelf_wood_slim.png" />
