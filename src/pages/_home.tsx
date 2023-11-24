@@ -23,8 +23,9 @@ function Home() {
                 <Row>
                     <Col xl={7} lg={7} md={6} className="homeTopText">
                         <h1>We make education accessible to all</h1>
-                        <p>Access videos, audios, worksheets and handouts. We make learning easy and fun</p>
-                        <Button className="btn btn-primary">Click Here <FaArrowRight /></Button>
+                        <p>On Children's Day, November 14th renowned educator and philanthropist Dr Jawahar Surisetti has unveiled an inspiring new campaign named I2W (India to World). The initiative aims to explore what India can contribute to the world and will be sustained as an ongoing effort.</p>
+                        <p>The campaign's most significant milestone is the launch of a website on 14th November, dedicated to providing free educational resources to children worldwide who are facing difficulties in their studies due to war, natural calamities, or other obstacles. The website will be managed through Dr Jawahar's organization, Religion of Youth.</p>
+                        {/* <Button className="btn btn-primary">Click Here <FaArrowRight /></Button> */}
                     </Col>
                     <Col xl={5} lg={5} md={6} className="homeTopImage">
                         <img
@@ -34,7 +35,7 @@ function Home() {
                         />
                     </Col>
                 </Row>
-            </Container>
+            </Container >
             <Col xl={12} lg={12} className="homeSearch">
                 <Container>
                     <Search placeholder="Search a Topic" onSearch={onSearch} />

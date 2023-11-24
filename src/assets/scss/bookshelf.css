@@ -2,7 +2,7 @@
   display: inline-block;
   cursor: pointer;
   margin: 0px 0.5%;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, .3);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
   /* width: 15% !important; */
   width: 15vw;
   min-width: 100px;
