@@ -133,8 +133,8 @@ const Subjects = () => {
         <>
             <Container fluid className="brick-background">
                 <Col xl={12} className="pageTitle">
-                    <h4>{pageTitle}</h4>
-                    <h3 className="text-capitalize">{subjectName!.replace(/_/, ' ')}</h3>
+                    <h4><span className="badge bg-primary">{pageTitle}</span></h4>
+                    <h3 className="text-capitalize"><span className="badge bg-success">{subjectName!.replace(/_/, ' ')}</span></h3>
                     <div className="divider div-transparent div-stopper"></div>
                 </Col>
                 <Row className="mb-4">

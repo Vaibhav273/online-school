@@ -58,7 +58,7 @@ const SchoolClass = () => {
         <>
             <Container fluid className="brick-background">
                 <Col xl={12} className="pageTitle">
-                    <h3>{pageTitle}</h3>
+                    <h3><span className="badge bg-primary">{pageTitle}</span></h3>
                     <div className="divider div-transparent div-stopper"></div>
                 </Col>
                 <Row className="mb-4">
@@ -74,7 +74,7 @@ const SchoolClass = () => {
                                                         <span className="text-light fw-bold text-capitalize d-block">{sub.subjectName.replace(/_/g, ' ')}</span>
                                                         <Image preview={false} src={"/src/assets/study-resources/class_" + className + "/" + sub.subjectName + "/book_cover.jpg"}
                                                             className="d-inline-block"
-                                                            fallback="/src/assets/images/book_image_alt1.png" 
+                                                            fallback="/src/assets/images/book_image_alt1.png"
                                                             alt={sub.subjectName} />
                                                     </div>
                                                 </Link>
