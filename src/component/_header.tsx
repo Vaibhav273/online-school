@@ -1,6 +1,6 @@
 import { Container, Row, Col, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo.jpeg';
 
 
 function Header() {
@@ -14,7 +14,7 @@ function Header() {
                                 <img
                                     src={logo}
                                     className="align-top logo img-fluid"
-                                    alt="Welcome to Bolier Inspectorate"
+                                    alt="Logo"
                                     width={250}
                                 />
                             </Navbar.Brand>
